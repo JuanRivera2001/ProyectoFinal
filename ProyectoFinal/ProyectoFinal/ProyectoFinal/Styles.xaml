@@ -6,7 +6,7 @@
     <Color x:Key="Color1">#F7D08A</Color>
 
     <Color x:Key="FontColor">#F2E205</Color>
-    <Color x:Key="btnColor">#F2CB05</Color>
+    <Color x:Key="btnColor">#8bc34a</Color>
     <Color x:Key="Color2">#F2B705</Color>
     <Color x:Key="Color3">#A67D03</Color>
     <Color x:Key="Background">#F2E3D0</Color>
@@ -17,12 +17,12 @@
     </Style>
 
     <Style TargetType="Button">
-        <Setter Property="BackgroundColor" Value="{StaticResource Secondary}"></Setter>
+        <Setter Property="BackgroundColor" Value="{StaticResource btnColor}"></Setter>
         <Setter Property="CornerRadius" Value="5"></Setter>
     </Style>
 
     <Style TargetType="Label" x:Key="lblLink">
-        <Setter Property="TextColor" Value="{StaticResource Secondary}"></Setter>
+        <Setter Property="TextColor" Value="{StaticResource btnColor}"></Setter>
         <Setter Property="FontFamily" Value="Rubik"></Setter>
     </Style>
 
@@ -31,5 +31,10 @@
         <Setter Property="FontFamily" Value="RubikTitle"></Setter>
         <Setter Property="FontSize" Value="Title"></Setter>
         <Setter Property="HorizontalOptions" Value="Center"></Setter>
+    </Style>
+
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="#F7D59C"></Setter>
+        <Setter Property="BarTextColor" Value="Black"></Setter>
     </Style>
 </ResourceDictionary>

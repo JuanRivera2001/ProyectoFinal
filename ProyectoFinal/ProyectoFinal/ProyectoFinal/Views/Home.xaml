@@ -4,15 +4,24 @@
              xmlns:Fonts_ico ="clr-namespace:ProyectoFinal.Fonts"
              x:Class="ProyectoFinal.Views.Home" BackgroundColor="#F2E3D0">
     <ContentPage.Content>
-        <StackLayout  Margin="0,20,0,0" Spacing="30">
-            <StackLayout>
-                <Image Source="Background_image" WidthRequest="200" HeightRequest="230"></Image>
-            </StackLayout>
-            <StackLayout Margin="20">
-                <Label Style="{StaticResource lblTitle}" Text="Bienvenido a RestaurantApp!" FontAttributes="Bold"></Label>
-                <Label Text="Gracias por unirte a RestaurantApp, Aqui podras elegir entre los cientos de restaurantes que tenemos para ofrecerte, 
-                       desde comida rapida hasta restaurantes de alta cocina. Disfruta de nuestros descuentos y promociones."
-                       ></Label>
+        <StackLayout>
+            <StackLayout.Background>
+                <LinearGradientBrush EndPoint="5,0">
+                    <GradientStop Color="#F7D59C" Offset="0"></GradientStop>
+                    <GradientStop Color="#DED9C4" Offset="0.15"></GradientStop>
+                </LinearGradientBrush>
+            </StackLayout.Background>
+
+            <StackLayout  Margin="0,20,0,0" Spacing="30">
+                <StackLayout>
+                    <Image Source="Background_image" WidthRequest="200" HeightRequest="230"></Image>
+                </StackLayout>
+                <StackLayout Margin="20">
+                    <Label Style="{StaticResource lblTitle}" Text="Bienvenido a RestaurantApp!" FontAttributes="Bold"></Label>
+                    <Label Text="Gracias por unirte a RestaurantApp, Aqui podras elegir entre los cientos de restaurantes que tenemos para ofrecerte, 
+                           desde comida rapida hasta restaurantes de alta cocina. Disfruta de nuestros descuentos y promociones."
+                           ></Label>
+                </StackLayout>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
