@@ -7,6 +7,7 @@ namespace ProyectoFinal.Fonts
     public static class Fonts
     {
 		public const string EyeOff = "\u2699";
+		public const string UserOutline = "\ue800";
 		public const string Mail = "\ue803";
 		public const string LockOpenAlt1 = "\uf075";
 		public const string MailAlt = "\uf0e0";

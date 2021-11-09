@@ -2,12 +2,53 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:Fonts_ico ="clr-namespace:ProyectoFinal.Fonts"
-             x:Class="ProyectoFinal.Views.Login">
+             x:Class="ProyectoFinal.Views.Login" BackgroundColor="#F2E3D0">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Margin="20,20,0,0" Spacing="30">
+            <StackLayout>
+                <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.User}" FontSize="150"
+                       HorizontalOptions="Center" TextColor="LightGray"></Label>
+                <Label Style="{StaticResource lblTitle}" Text="Bienvenido de vuelta" FontAttributes="Bold"></Label>
+                <Label Text="Ingrese para continuar" TextColor="Gray" HorizontalOptions="Center"></Label>
+            </StackLayout>
+
+            <StackLayout Margin="58,0,0,0">
+                <Label Text="Email"></Label>
+                <StackLayout Orientation="Horizontal">
+                    <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Mail}" FontSize="20"
+                       TextColor="Black" VerticalOptions="Center"></Label>
+                    <Entry BackgroundColor="LightGray" WidthRequest="200" HeightRequest="35" FontSize="Small"
+                           Placeholder="Ingrese su email" Keyboard="Email"></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Lock}" FontSize="30"
+                       TextColor="Black" VerticalOptions="Center"></Label>
+                    <Entry BackgroundColor="LightGray" WidthRequest="200" HeightRequest="35" FontSize="Small"
+                           Placeholder="Ingrese su contraseña" IsPassword="True"></Entry>
+                </StackLayout>
+                <StackLayout Margin="0,0,56,0" Spacing="50">
+                    <Label Style="{StaticResource lblLink}" Text="Olvido su contraseña?" HorizontalOptions="End"
+                           TextDecorations="Underline"></Label>
+                    <Button Text="Iniciar Sesión" Clicked="Button_Clicked"></Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" Margin="0,0,56,0">
+                    <Label Text="No tienes cuenta?"  FontSize="13.5"></Label>
+                    <Label>
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource lblLink}" Text="Create una nueva" FontSize="13.5" 
+                                      TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                                    </Span.GestureRecognizers>
+                                </Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                </StackLayout>
+                
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

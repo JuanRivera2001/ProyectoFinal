@@ -11,7 +11,7 @@ namespace ProyectoFinal
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Views.Home());
+            MainPage = new NavigationPage(new Views.Login());
         }
 
         protected override void OnStart()

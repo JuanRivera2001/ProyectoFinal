@@ -2,12 +2,69 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:Fonts_ico ="clr-namespace:ProyectoFinal.Fonts"
-             x:Class="ProyectoFinal.Views.Register">
+             x:Class="ProyectoFinal.Views.Register" BackgroundColor="#F2E3D0">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout  Margin="20,20,0,0" Spacing="30">
+            <StackLayout Margin="13,0,0,0">
+                <Label Style="{StaticResource lblTitle}" Text="Crear una cuenta" FontAttributes="Bold"></Label>
+                <Label Text="Crear una cuenta nueva" TextColor="Gray" HorizontalOptions="Center"></Label>
+            </StackLayout>
+            
+            <StackLayout Margin="58,0,0,0" Spacing="30">
+                <StackLayout Orientation="Horizontal">
+                    <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.User}" FontSize="25"
+                           TextColor="Black" VerticalOptions="Center"></Label>
+                    <Entry BackgroundColor="LightGray" WidthRequest="200" HeightRequest="35" FontSize="Small"
+                           Placeholder="Ingrese su nombre" MaxLength="40"></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Mail}" FontSize="20"
+                           TextColor="Black" VerticalOptions="Center"></Label>
+                    <Entry BackgroundColor="LightGray" WidthRequest="200" HeightRequest="35" FontSize="Small"
+                           Placeholder="Ingrese su email" Keyboard="Email" MaxLength="50"></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="6,0,0,0">
+                    <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Mobile}" FontSize="30"
+                           TextColor="Black" VerticalOptions="Center" HorizontalOptions="Start"></Label>
+                    <Entry BackgroundColor="LightGray" WidthRequest="200" HeightRequest="35" FontSize="Small"
+                           Placeholder="Ingrese su numero celular" Keyboard="Telephone" MaxLength="13"></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="6,0,0,0">
+                    <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.LockOpenAlt}" FontSize="20"
+                           TextColor="Black" VerticalOptions="Center"></Label>
+                    <Entry BackgroundColor="LightGray" WidthRequest="200" HeightRequest="35" FontSize="Small"
+                           Placeholder="Ingrese su contraseña" IsPassword="True"></Entry>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Margin="6,0,0,0">
+                    <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.LockOpenAlt1}" FontSize="20"
+                           TextColor="Black" VerticalOptions="Center"></Label>
+                    <Entry BackgroundColor="LightGray" WidthRequest="200" HeightRequest="35" FontSize="Small"
+                           Placeholder="Confirmar contraseña" IsPassword="True"></Entry>
+                </StackLayout>
+
+                <StackLayout Margin="0,0,56,0">
+                    <Button Text="Crear cuenta" Clicked="Button_Clicked"></Button>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Ya tienes una cuenta?"  FontSize="14.5"></Label>
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Style="{StaticResource lblLink}" Text="Ingresa" FontSize="14.5" 
+                                      TextDecorations="Underline">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -10,11 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace ProyectoFinal
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Styles : ContentPage
+    public partial class Styles : ResourceDictionary
     {
         public Styles()
         {
-            InitializeComponent();
+           
         }
     }
 }
