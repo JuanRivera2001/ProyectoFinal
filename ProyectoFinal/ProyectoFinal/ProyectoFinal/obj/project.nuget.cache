@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7qCUKLvyteWYHBciVXw7GgjW9/bicUXFk20RDV/pbUxHMETffuOIqpEvXL6sl4Zn6xPBmCf4duX3lExuLTzmWA==",
+  "dgSpecHash": "uDJuQsPmqrZ8JChX1x1XTKUPqo+dJfW2JghXKYOCh5YICky2Ak5IZYfLhW+jVRZPQ0pQr74fGZq69fOX2nITlA==",
   "success": true,
   "projectFilePath": "D:\\DesarrolloMovil\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\juans\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\xam.plugins.notifier\\3.0.1\\xam.plugins.notifier.3.0.1.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xamarin.forms\\5.0.0.2244\\xamarin.forms.5.0.0.2244.nupkg.sha512"
   ],

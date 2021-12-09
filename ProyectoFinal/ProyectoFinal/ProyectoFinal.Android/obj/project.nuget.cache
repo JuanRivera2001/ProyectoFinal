@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2XGMOem1qE43y6DhTJEsBJ8nqWMGVTofkAHxk6NFGOqhRX4TG3hhOKYSj6zlP3d+O7IkYylsJeVw96/eToILYg==",
+  "dgSpecHash": "pzBolYgzALC3YourBwkv6nKgB30jWIqLaaWZHuBgcKehkiQobG9MV0OOl4I/Ape+nYY5jaLvLXu3DIwlHQJ6wA==",
   "success": true,
   "projectFilePath": "D:\\DesarrolloMovil\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.Android\\ProyectoFinal.Android.csproj",
   "expectedPackageFiles": [
@@ -30,12 +30,14 @@
     "C:\\Users\\juans\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\xam.plugins.notifier\\3.0.1\\xam.plugins.notifier.3.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.0.0\\xamarin.android.arch.core.common.1.0.0.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xamarin.android.arch.lifecycle.common\\1.0.3\\xamarin.android.arch.lifecycle.common.1.0.3.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xamarin.android.arch.lifecycle.runtime\\1.0.3\\xamarin.android.arch.lifecycle.runtime.1.0.3.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xamarin.android.support.annotations\\27.0.2\\xamarin.android.support.annotations.27.0.2.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xamarin.android.support.compat\\27.0.2\\xamarin.android.support.compat.27.0.2.nupkg.sha512",
     "C:\\Users\\juans\\.nuget\\packages\\xamarin.android.support.core.utils\\27.0.2\\xamarin.android.support.core.utils.27.0.2.nupkg.sha512",
+    "C:\\Users\\juans\\.nuget\\packages\\xamarin.android.support.v4\\23.0.1.3\\xamarin.android.support.v4.23.0.1.3.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

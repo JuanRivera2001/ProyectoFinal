@@ -16,37 +16,34 @@
                 </LinearGradientBrush>
             </StackLayout.Background>-->
             <StackLayout>
-        
+                <!--Top part of view-->
                 <StackLayout Margin="20,20,0,0" Spacing="40">
-            
                     <Image Source="LogoApp.png" WidthRequest="300"></Image>
                     <Label Style="{StaticResource lblTitle}" Text="Bienvenido a RestaurantApp" FontAttributes="Bold"></Label>
                     <Label Text="Ingrese para continuar" TextColor="Black" HorizontalOptions="Center"></Label>
                 </StackLayout>
 
                 <StackLayout Margin="58,0,0,0" Spacing="10">
-                    
+                    <!-- Email field for login-->
                     <StackLayout Orientation="Horizontal">
                         <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Mail}" FontSize="20"
                            TextColor="#757575" VerticalOptions="Center"></Label>
-
                         <Entry BackgroundColor="#e3caab" WidthRequest="220" HeightRequest="35" FontSize="Small"
                                Placeholder="Ingrese su email" Keyboard="Email" TextColor="black" 
                                Text="{Binding EmailTxt, Mode=TwoWay}" PlaceholderColor="SlateGray"></Entry>
                     </StackLayout>
 
+                    <!--Password field for login-->
                     <StackLayout Orientation="Horizontal">
                         <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Lock}" FontSize="30"
                            TextColor="#757575" VerticalOptions="Center"></Label>
-
                         <Entry BackgroundColor="#e3caab" WidthRequest="220" HeightRequest="35" FontSize="Small"
                                Placeholder="Ingrese su contraseña" IsPassword="True" TextColor="black"
                                Text="{Binding PasswordTxt, Mode=TwoWay}" PlaceholderColor="SlateGray"></Entry>
                     </StackLayout>
                     
                     <StackLayout Margin="0,0,56,0" Spacing="50">
-                        <!--<Label Style="{StaticResource lblLink}" Text="¿Olvido su contraseña?" HorizontalOptions="End"
-                               TextDecorations="Underline"></Label>-->
+                        <!--Forget Password Link, calling the Recovery View-->
 
                         <Label HorizontalOptions="End">
                             <Label.FormattedText>
@@ -61,9 +58,11 @@
                             </Label.FormattedText>
                         </Label>
                         
+                        <!--Button that call the login command and send the information of user-->
                         <Button Text="Iniciar Sesión" Command="{Binding LoginCommand}"></Button>
                     </StackLayout>
                     
+                    <!--Link that calls the Register View-->
                     <StackLayout Orientation="Horizontal" Margin="0,0,56,0">
                         <Label Text="¿No tienes cuenta?"  FontSize="13.5"></Label>
                         <Label>

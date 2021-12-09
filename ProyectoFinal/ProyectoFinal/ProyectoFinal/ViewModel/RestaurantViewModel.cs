@@ -77,7 +77,7 @@ namespace ProyectoFinal.ViewModel
 
         #endregion
 
-        #region Metodos
+        #region Methods
         public async Task LoadList()
         {
             this.ListViewSource = await App.Db.GetTableModel<RestaurantModel>();

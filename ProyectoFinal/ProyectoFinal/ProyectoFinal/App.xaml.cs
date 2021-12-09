@@ -10,7 +10,8 @@ using System.Collections.Generic;
 namespace ProyectoFinal
 {
     public partial class App : Application
-    {
+    {   
+        //Generic initialization of database
         static DataBaseQuery database;
         public static DataBaseQuery Db
         {
@@ -27,7 +28,7 @@ namespace ProyectoFinal
         public App()
         {
             InitializeComponent();
-
+            //Set the login view as Main Page of application
             MainPage = new NavigationPage(new Views.Login());
         }
 

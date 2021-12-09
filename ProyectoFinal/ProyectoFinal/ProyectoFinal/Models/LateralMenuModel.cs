@@ -6,6 +6,7 @@ namespace ProyectoFinal.Models
 {
     public class LateralMenuModel
     {
+        //Default Model used for a LateralMenu
         public LateralMenuModel()
         {
             TargetType = typeof(LateralMenuModel);

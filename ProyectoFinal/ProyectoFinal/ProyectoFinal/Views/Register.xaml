@@ -12,13 +12,17 @@
                 </LinearGradientBrush>
             </StackLayout.Background>-->
             
+            <!--Top part of view-->
             <StackLayout  Margin="20,20,0,0" Spacing="30">
                 <StackLayout Margin="13,0,0,0">
                     <Label Style="{StaticResource lblTitle}" Text="Crear una cuenta" FontAttributes="Bold"></Label>
                     <Label Text="Crear una cuenta nueva" TextColor="Gray" HorizontalOptions="Center"></Label>
                 </StackLayout>
-
+                
+                <!--Fields for user register-->
                 <StackLayout Margin="58,0,0,0" Spacing="30">
+                    
+                    <!-- Name field for user register-->
                     <StackLayout Orientation="Horizontal">
                         <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.User}" FontSize="25"
                            TextColor="#757575" VerticalOptions="Center"></Label>
@@ -27,6 +31,7 @@
                            Text="{Binding NameTxt}"></Entry>
                     </StackLayout>
 
+                    <!-- Email field for user register-->
                     <StackLayout Orientation="Horizontal">
                         <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Mail}" FontSize="20"
                            TextColor="#757575" VerticalOptions="Center"></Label>
@@ -35,6 +40,7 @@
                            PlaceholderColor="SlateGray" Text="{Binding EmailTxt}"></Entry>
                     </StackLayout>
 
+                    <!-- Number field for user register-->
                     <StackLayout Orientation="Horizontal" Margin="6,0,0,0">
                         <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.Mobile}" FontSize="30"
                            TextColor="#757575" VerticalOptions="Center" HorizontalOptions="Start"></Label>
@@ -43,6 +49,7 @@
                            TextColor="black" PlaceholderColor="SlateGray" Text="{Binding PhoneNumberTxt}"></Entry>
                     </StackLayout>
 
+                    <!-- Password field for user register-->
                     <StackLayout Orientation="Horizontal" Margin="6,0,0,0">
                         <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.LockOpenAlt}" FontSize="20"
                            TextColor="#757575" VerticalOptions="Center"></Label>
@@ -51,6 +58,7 @@
                            PlaceholderColor="SlateGray" Text="{Binding PasswordTxt}"></Entry>
                     </StackLayout>
 
+                    <!-- Confirm Password field for user register-->
                     <StackLayout Orientation="Horizontal" Margin="6,0,0,0">
                         <Label FontFamily="icons" Text="{x:Static Fonts_ico:Fonts.LockOpenAlt1}" FontSize="20"
                            TextColor="#757575" VerticalOptions="Center"></Label>
@@ -59,6 +67,7 @@
                            PlaceholderColor="SlateGray" Text="{Binding ConfirmPasswordTxt}"></Entry>
                     </StackLayout>
 
+                    <!-- Link that redirecto to login view-->
                     <StackLayout Margin="0,0,56,0">
                         <Button Text="Crear cuenta" Command="{Binding RegisterCommand}"></Button>
                         <StackLayout Orientation="Horizontal">

@@ -9,6 +9,7 @@ namespace ProyectoFinal.ViewModel
 {
     class LateralMenuFlyoutViewModel : BaseViewModel
     {
+        //Generic ViewModel for Lateral Menu
         #region Att
         public string icon;
         public string title = "RestaurantApp";
@@ -52,12 +53,14 @@ namespace ProyectoFinal.ViewModel
 
         #endregion
 
-        #region Metodos
+        #region Methods
+        
+        //Loading the Views that will be in Lateral Menu
         public async Task LoadList()
         {
             this.ListViewSource = new List<LateralMenuModel>(new[]
                 {
-                    new LateralMenuModel { Id = 0, Title = "Inicio" , Icon = "LogoApertura.png" , TargetType = typeof(Home)},
+                    new LateralMenuModel { Id = 0, Title = "Inicio" , Icon = "HomeIcon.png" , TargetType = typeof(Home)},
                     new LateralMenuModel { Id = 1, Title = "Restaurantes ", Icon = "LogoApertura.png" , TargetType = typeof(Restaurants) },
                     new LateralMenuModel { Id = 2, Title = "Mi perfil ", Icon = "usr.png" , TargetType = typeof(UserInfo) },
                     

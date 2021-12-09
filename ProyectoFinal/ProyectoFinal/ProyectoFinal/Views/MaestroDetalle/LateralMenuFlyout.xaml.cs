@@ -21,6 +21,7 @@ namespace ProyectoFinal.Views.MaestroDetalle
         {
             InitializeComponent();
 
+            //Set the List View created in Lateral Menu View Model
             BindingContext = new LateralMenuFlyoutViewModel();
             ListView = MenuItemsListView;
         }

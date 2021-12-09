@@ -6,6 +6,7 @@ namespace ProyectoFinal.Fonts
 {
     public static class Fonts
     {
+		//Icons used in the Views
 		public const string EyeOff = "\u2699";
 		public const string UserOutline = "\ue800";
 		public const string Mail = "\ue803";

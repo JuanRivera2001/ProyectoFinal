@@ -12,6 +12,7 @@ namespace ProyectoFinal.Views.MaestroDetalle
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LateralMenu : FlyoutPage
     {
+        //Generic Class to load the items for a ListView
         public LateralMenu()
         {
             InitializeComponent();

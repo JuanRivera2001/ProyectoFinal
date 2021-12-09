@@ -7,6 +7,7 @@ namespace ProyectoFinal.Models
 {
     public class UserModel
     {
+        //Model for Users
         [PrimaryKey, AutoIncrement]
         public int UserID { get; set; }
 

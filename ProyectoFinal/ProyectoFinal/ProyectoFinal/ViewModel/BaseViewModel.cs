@@ -8,7 +8,7 @@ namespace ProyectoFinal.ViewModel
 {
     class BaseViewModel : INotifyPropertyChanged
     {
-
+        //Master class for ViewModels
         public event PropertyChangedEventHandler PropertyChanged;
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
 

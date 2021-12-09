@@ -97,7 +97,8 @@ namespace ProyectoFinal.ViewModel
 
         public async void RegisterMethod()
         {
-            if(password != confirmPassword)
+            //Check that the password and confirmation password are the same, and check that all the fields are fill
+            if (password != confirmPassword)
             {
                 await Application.Current.MainPage.DisplayAlert("Error","Las contraseñas no coinciden", "OK");
             }
@@ -107,6 +108,7 @@ namespace ProyectoFinal.ViewModel
             }
             else
             {
+                //In case that pass the validations the user is create
                 var userMod = new UserModel();
                 userMod.Name = name;
                 userMod.User = user;

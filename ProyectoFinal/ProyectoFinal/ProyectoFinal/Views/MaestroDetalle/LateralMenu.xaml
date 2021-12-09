@@ -11,6 +11,7 @@
   <FlyoutPage.Detail>
     <NavigationPage>
         <x:Arguments>
+            <!--Set Home view as default-->
             <pages2:Home/>
          </x:Arguments>
     </NavigationPage>

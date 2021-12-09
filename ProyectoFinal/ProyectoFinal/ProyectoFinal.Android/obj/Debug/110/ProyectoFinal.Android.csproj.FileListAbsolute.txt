@@ -654,3 +654,10 @@ D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\1
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\stamp\_CopyIntermediateAssemblies.stamp
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\ProyectoFinal.Android.csproj.CopyComplete
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\drawable\usr.png
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\mipmap-anydpi-v26\logoapertura.png
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\mipmap-hdpi\logoapertura.png
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\mipmap-mdpi\logoapertura.png
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\mipmap-xhdpi\logoapertura.png
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\mipmap-xxhdpi\logoapertura.png
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\mipmap-xxxhdpi\logoapertura.png
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Debug\110\res\drawable\homeicon.png

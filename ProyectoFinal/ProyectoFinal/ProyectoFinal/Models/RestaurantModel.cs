@@ -7,6 +7,7 @@ namespace ProyectoFinal.Models
 {
     public class RestaurantModel
     {
+        //Model for Restaurants
         [PrimaryKey, AutoIncrement]
         public int RestaurantId { get; set; }
 

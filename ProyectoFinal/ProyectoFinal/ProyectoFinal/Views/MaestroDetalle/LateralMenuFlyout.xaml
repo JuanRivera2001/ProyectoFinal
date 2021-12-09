@@ -4,6 +4,7 @@
              x:Class="ProyectoFinal.Views.MaestroDetalle.LateralMenuFlyout"
              Title="Flyout">
   <StackLayout>
+    <!--Set the ListView as default to load the items in the LateralMenu-->
     <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true"

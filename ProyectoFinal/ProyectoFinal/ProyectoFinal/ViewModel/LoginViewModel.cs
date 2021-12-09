@@ -19,7 +19,6 @@ namespace ProyectoFinal.ViewModel
         #endregion
 
 
-
         #region Prop
 
         public string EmailTxt
@@ -58,6 +57,7 @@ namespace ProyectoFinal.ViewModel
 
         #region Methods
 
+        //Send the credentials taken from the login View and check if the user exist in DB
         public async void LoginMethod()
         {
 
