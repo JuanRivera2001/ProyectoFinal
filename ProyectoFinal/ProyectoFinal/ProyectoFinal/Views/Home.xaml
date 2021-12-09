@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:Fonts_ico ="clr-namespace:ProyectoFinal.Fonts"
-             x:Class="ProyectoFinal.Views.Home" BackgroundColor="#F2E3D0">
+             x:Class="ProyectoFinal.Views.Home" BackgroundColor="#F2E3D0"
+             NavigationPage.HasNavigationBar="True">
     <ContentPage.Content>
         <StackLayout>
             <StackLayout.Background>

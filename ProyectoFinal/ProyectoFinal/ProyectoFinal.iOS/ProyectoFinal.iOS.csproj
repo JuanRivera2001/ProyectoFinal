@@ -133,4 +133,16 @@
       <Name>ProyectoFinal</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Background_image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoApp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\usr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoApertura.png" />
+  </ItemGroup>
 </Project>

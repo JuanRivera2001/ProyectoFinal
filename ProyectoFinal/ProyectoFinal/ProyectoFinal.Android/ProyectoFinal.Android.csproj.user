@@ -4,5 +4,6 @@
     <SelectedDevice>HUAWEI BLA-A09</SelectedDevice>
     <ActiveDebugProfile>HUAWEI BLA-A09</ActiveDebugProfile>
     <DefaultDevice>nexus_7_pie_9_0_-_api_28</DefaultDevice>
+    <AndroidDesignerPreferredTheme>MainTheme</AndroidDesignerPreferredTheme>
   </PropertyGroup>
 </Project>

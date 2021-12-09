@@ -17,12 +17,12 @@
     </Style>
 
     <Style TargetType="Button">
-        <Setter Property="BackgroundColor" Value="{StaticResource btnColor}"></Setter>
+        <Setter Property="BackgroundColor" Value="CornflowerBlue"></Setter>
         <Setter Property="CornerRadius" Value="5"></Setter>
     </Style>
 
     <Style TargetType="Label" x:Key="lblLink">
-        <Setter Property="TextColor" Value="{StaticResource btnColor}"></Setter>
+        <Setter Property="TextColor" Value="CornflowerBlue"></Setter>
         <Setter Property="FontFamily" Value="Rubik"></Setter>
     </Style>
 
@@ -33,8 +33,11 @@
         <Setter Property="HorizontalOptions" Value="Center"></Setter>
     </Style>
 
-    <Style TargetType="NavigationPage">
+    <Style TargetType="Entry">
+        <Setter Property="ClearButtonVisibility" Value="WhileEditing"></Setter>
+    </Style>
+    <!--<Style TargetType="NavigationPage">
         <Setter Property="BarBackgroundColor" Value="#F7D59C"></Setter>
         <Setter Property="BarTextColor" Value="Black"></Setter>
-    </Style>
+    </Style>-->
 </ResourceDictionary>
