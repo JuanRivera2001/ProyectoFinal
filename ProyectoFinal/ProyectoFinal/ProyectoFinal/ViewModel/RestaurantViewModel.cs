@@ -17,7 +17,8 @@ namespace ProyectoFinal.ViewModel
         public int id;
         public string name;
         public string address;
-        public int reserves;
+        public string image;
+        public string description;
         public object listViewSource;
         public bool isRefreshing = false;
 
@@ -40,6 +41,7 @@ namespace ProyectoFinal.ViewModel
             }
             set { SetValue(ref this.name, value); }
         }
+
         public string AddressTxt
         {
             get
@@ -48,13 +50,22 @@ namespace ProyectoFinal.ViewModel
             }
             set { SetValue(ref this.address, value); }
         }
-        public int ReservesTxt
+
+        public string ImageTxt
         {
             get
             {
-                return this.reserves;
+                return this.image;
             }
-            set { SetValue(ref this.reserves, value); }
+            set { SetValue(ref this.image, value); }
+        }
+        public string DescriptionTxt
+        {
+            get
+            {
+                return this.description;
+            }
+            set { SetValue(ref this.description, value); }
         }
 
         public object ListViewSource
@@ -81,7 +92,6 @@ namespace ProyectoFinal.ViewModel
         public async Task LoadList()
         {
             this.ListViewSource = await App.Db.GetTableModel<RestaurantModel>();
-
         }
         #endregion
 
@@ -98,7 +108,8 @@ namespace ProyectoFinal.ViewModel
             NameTxt = item.RestaurantName;
             AddressTxt = item.Address;
             IdTxt = item.RestaurantId;
-            ReservesTxt = item.ReserverCount;
+            ImageTxt = item.Image;
+            DescriptionTxt = item.Description;
         }
         #endregion
     }

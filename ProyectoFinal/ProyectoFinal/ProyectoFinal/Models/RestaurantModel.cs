@@ -11,11 +11,14 @@ namespace ProyectoFinal.Models
         [PrimaryKey, AutoIncrement]
         public int RestaurantId { get; set; }
 
+        public string Image { get; set; }
+
+        public string Description { get; set; }
+
         [MaxLength(50)]
         public string RestaurantName { get; set; }
         
         public string Address { get; set; }
 
-        public int ReserverCount { get; set; }
     }
 }

@@ -145,4 +145,16 @@
   <ItemGroup>
     <BundleResource Include="Resources\LogoApertura.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LogoAperturaOriginal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\LucernaLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\AmbarLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\KeizakiLogo.png" />
+  </ItemGroup>
 </Project>

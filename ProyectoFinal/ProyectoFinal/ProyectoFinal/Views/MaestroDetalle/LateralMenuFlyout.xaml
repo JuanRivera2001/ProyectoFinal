@@ -4,7 +4,15 @@
              x:Class="ProyectoFinal.Views.MaestroDetalle.LateralMenuFlyout"
              Title="Flyout">
   <StackLayout>
-    <!--Set the ListView as default to load the items in the LateralMenu-->
+      <!--Gradient background-->
+        <StackLayout.Background>
+            <LinearGradientBrush EndPoint="5,0">
+                <GradientStop Color="#F7D59C" Offset="0"></GradientStop>
+                <GradientStop Color="#DED9C4" Offset="0.15"></GradientStop>
+            </LinearGradientBrush>
+        </StackLayout.Background>
+      
+        <!--Set the ListView as default to load the items in the LateralMenu-->
     <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true"
@@ -34,7 +42,7 @@
         <DataTemplate>
           <ViewCell>
             <StackLayout Padding="5,5" HorizontalOptions="FillAndExpand" Orientation="Horizontal" Spacing="5">
-              <Image Source="LogoApertura.png" WidthRequest="20" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+              <Image Source="{Binding Icon}" WidthRequest="25" VerticalOptions="Center" HorizontalOptions="Center"></Image>
               <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
                     Text="{Binding Title}" 

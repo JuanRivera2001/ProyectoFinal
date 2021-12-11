@@ -18,8 +18,8 @@ D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstanda
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ref\ProyectoFinal.dll
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\ProyectoFinal.pdb
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Views\MaestroDetalle\LateralMenu.xaml.g.cs
-D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Views\MaestroDetalle\LateralMenuDetail.xaml.g.cs
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Views\MaestroDetalle\LateralMenuFlyout.xaml.g.cs
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Views\Restaurants.xaml.g.cs
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Views\UserInfo.xaml.g.cs
 D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Views\ForgetPassword.xaml.g.cs
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal\obj\Debug\netstandard2.0\Views\RestaurantList.xaml.g.cs

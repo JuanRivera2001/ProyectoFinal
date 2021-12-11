@@ -69,6 +69,8 @@ namespace ProyectoFinal.ViewModel
             if (ListUser.Count > 0)
             {
                 await Application.Current.MainPage.DisplayAlert("Bienvenido", "Bienvenido a RestaurantApp ", "OK");
+                App.email = email;
+                App.password = password;
                 await Application.Current.MainPage.Navigation.PushAsync(new LateralMenu());
             }
             else

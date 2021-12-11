@@ -5,13 +5,7 @@
              x:Class="ProyectoFinal.Views.Register" BackgroundColor="#e3caab">
     <ContentPage.Content>
         <StackLayout>
-            <!--<StackLayout.Background>
-                <LinearGradientBrush EndPoint="5,0">
-                    <GradientStop Color="#F7D59C" Offset="0"></GradientStop>
-                    <GradientStop Color="#DED9C4" Offset="0.15"></GradientStop>
-                </LinearGradientBrush>
-            </StackLayout.Background>-->
-            
+
             <!--Top part of view-->
             <StackLayout  Margin="20,20,0,0" Spacing="30">
                 <StackLayout Margin="13,0,0,0">

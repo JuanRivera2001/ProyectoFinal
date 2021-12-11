@@ -17,7 +17,6 @@ namespace ProyectoFinal.ViewModel
         #endregion
 
 
-
         #region Prop
 
         public string EmailTxt
@@ -72,9 +71,15 @@ namespace ProyectoFinal.ViewModel
 
             UserModel Usr = App.Db.GetUserModel(email, newPassword).Result;
 
-            await Application.Current.MainPage.DisplayAlert("Cambio contraseña", "Su contraseña se ha cambiado exitosamente!", "OK");
-            await Application.Current.MainPage.Navigation.PushAsync(new Login());
-
+            if (ListUser.Equals(""))
+            {
+                await Application.Current.MainPage.DisplayAlert("Error", "Intente nuevamente", "OK");
+            }
+            else
+            {
+                await Application.Current.MainPage.DisplayAlert("Cambio contraseña", "Su contraseña se ha cambiado exitosamente!", "OK");
+                await Application.Current.MainPage.Navigation.PushAsync(new Login());
+            }
         }
         #endregion
     }

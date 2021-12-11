@@ -19,5 +19,7 @@ namespace ProyectoFinal.Models
 
         public Type TargetType { get; set; }
 
+        public UserModel ActualUser { get; set; }
+
     }
 }

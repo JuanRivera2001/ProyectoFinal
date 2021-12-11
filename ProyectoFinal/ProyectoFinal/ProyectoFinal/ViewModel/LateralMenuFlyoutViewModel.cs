@@ -38,9 +38,6 @@ namespace ProyectoFinal.ViewModel
             set { SetValue(ref this.title, value); }
         }
 
-
-
-
         public object ListViewSource
         {
             get
@@ -61,8 +58,8 @@ namespace ProyectoFinal.ViewModel
             this.ListViewSource = new List<LateralMenuModel>(new[]
                 {
                     new LateralMenuModel { Id = 0, Title = "Inicio" , Icon = "HomeIcon.png" , TargetType = typeof(Home)},
-                    new LateralMenuModel { Id = 1, Title = "Restaurantes ", Icon = "LogoApertura.png" , TargetType = typeof(Restaurants) },
-                    new LateralMenuModel { Id = 2, Title = "Mi perfil ", Icon = "usr.png" , TargetType = typeof(UserInfo) },
+                    new LateralMenuModel { Id = 1, Title = "Restaurantes ", Icon = "LogoApertura.png" , TargetType = typeof(RestaurantList) },
+                    new LateralMenuModel { Id = 2, Title = "Mi perfil ", Icon = "usr.png" , TargetType = typeof(UserInfo)},
                     
 
                 });

@@ -11,9 +11,6 @@ namespace ProyectoFinal.Models
         [PrimaryKey, AutoIncrement]
         public int UserID { get; set; }
 
-        [MaxLength(16)]
-        public string User { get; set; }
-
         [MaxLength(40)]
         public string Name { get; set; }
 

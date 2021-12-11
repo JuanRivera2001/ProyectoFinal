@@ -12,7 +12,6 @@ namespace ProyectoFinal.ViewModel
     class UserViewModel : BaseViewModel
     {
         #region Atributos
-        public string user = "";
         public string password = "";
         public string confirmPassword = "";
         public string name = "";
@@ -24,14 +23,6 @@ namespace ProyectoFinal.ViewModel
 
         #region Prop
 
-        public string UserTxt
-        {
-            get
-            {
-                return this.user;
-            }
-            set { SetValue(ref this.user, value); }
-        }
         public string PasswordTxt
         {
             get
@@ -90,6 +81,14 @@ namespace ProyectoFinal.ViewModel
             set { }
         }
 
+        public ICommand UpdateCommand
+        {
+            get
+            {
+                return new RelayCommand(UpdateUserMethod);
+            }
+            set { }
+        }
         #endregion
 
 
@@ -102,7 +101,7 @@ namespace ProyectoFinal.ViewModel
             {
                 await Application.Current.MainPage.DisplayAlert("Error","Las contraseñas no coinciden", "OK");
             }
-            else if(user.Equals("") || password.Equals("") || email.Equals("") || phoneNumber.Equals("") || name.Equals(""))
+            else if(password.Equals("") || email.Equals("") || phoneNumber.Equals("") || name.Equals(""))
             {
                 await Application.Current.MainPage.DisplayAlert("Error", "Ingrese todos los datos para registrarse", "OK");
             }
@@ -111,7 +110,6 @@ namespace ProyectoFinal.ViewModel
                 //In case that pass the validations the user is create
                 var userMod = new UserModel();
                 userMod.Name = name;
-                userMod.User = user;
                 userMod.Password = password;
                 userMod.Email = email;
                 userMod.PhoneNumber = phoneNumber;
@@ -122,7 +120,29 @@ namespace ProyectoFinal.ViewModel
             }
         }
 
+        public async void UpdateUserMethod()
+        {
+            //Update the modified data of the actual user
+            var actualUser = new UserModel();
+            actualUser.Email = email;
+            actualUser.Name = name;
+            actualUser.PhoneNumber = phoneNumber;
+
+            await App.Db.SaveModelAsync<UserModel>(actualUser, false);
+            await Application.Current.MainPage.DisplayAlert("OK", " Actualización Exitosa", "OK");
+        }
         #endregion
 
+        #region Constructor
+        public UserViewModel()
+        {
+            //Get the info of the actual user
+            UserModel item = App.Db.GetUserModel(App.email, App.password).Result;
+
+            NameTxt = item.Name;
+            EmailTxt = item.Email;
+            PhoneNumberTxt = item.PhoneNumber;
+        }
+        #endregion
     }
 }

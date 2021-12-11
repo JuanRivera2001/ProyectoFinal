@@ -1,12 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="ProyectoFinal.Views.UserInfo">
+             x:Class="ProyectoFinal.Views.UserInfo"
+             BackgroundColor="#e3caab">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition  Height="Auto"></RowDefinition>
+                <RowDefinition  Height="Auto"></RowDefinition>
+                <RowDefinition  Height="Auto"></RowDefinition>
+                <RowDefinition  Height="Auto"></RowDefinition>
+                <RowDefinition  Height="Auto"></RowDefinition>
+                <RowDefinition  Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <!--Top part of view-->
+            <StackLayout Grid.Row="1" Margin="0,25,0,0">
+                <Image Source="usr.png" HeightRequest="70" WidthRequest="90" ></Image>
+            </StackLayout>
+
+            <StackLayout Grid.Row="2" HorizontalOptions="Center" Orientation="Vertical" Spacing="30">
+                <Label Text="Mi perfil" Style="{StaticResource lblTitle}" FontAttributes="Bold"></Label>
+                <Label Text="Actualiza tus datos personales" FontSize="Medium"></Label>
+            </StackLayout>
+
+            <!--Email field only read available-->
+            <StackLayout Grid.Row="3" Margin="30,0,30,0" Orientation="Vertical" Spacing="5" >
+                <Label Text="Email"></Label>
+                <Entry  Text="{Binding  EmailTxt, Mode=TwoWay}" BackgroundColor="#e3caab"
+                        Keyboard="Email" IsReadOnly="True" TextColor="SlateGray"></Entry>
+            </StackLayout>
+
+            <!--Name of the actual user-->
+            <StackLayout Grid.Row="4" Margin="30,0,30,0" Orientation="Vertical" Spacing="5" >
+                <Label Text="Nombre"></Label>
+                <Entry Text="{Binding  NameTxt, Mode=TwoWay}"
+                       BackgroundColor="#e3caab" PlaceholderColor="SlateGray"></Entry>
+            </StackLayout>
+
+            <!--Number of the actual user-->
+            <StackLayout Grid.Row="5" Margin="30,0,30,0" Orientation="Vertical" Spacing="5" >
+                <Label Text="Número de telefono"></Label>
+                <Entry Text="{Binding PhoneNumberTxt, Mode=TwoWay}"  BackgroundColor="#e3caab"
+                       Keyboard="Numeric" PlaceholderColor="SlateGray"></Entry>
+            </StackLayout>
+            
+            <!--Button that call the Update Command-->
+            <StackLayout Grid.Row="6" Margin="30,30,30,0" Orientation="Vertical" Spacing="5">
+                <Button Command="{Binding UpdateCommand}" Text="Confirmar" ></Button>
+            </StackLayout>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

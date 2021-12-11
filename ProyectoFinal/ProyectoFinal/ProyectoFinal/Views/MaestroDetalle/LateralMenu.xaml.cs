@@ -13,6 +13,7 @@ namespace ProyectoFinal.Views.MaestroDetalle
     public partial class LateralMenu : FlyoutPage
     {
         //Generic Class to load the items for a ListView
+        public UserModel actualUser;
         public LateralMenu()
         {
             InitializeComponent();
@@ -27,7 +28,7 @@ namespace ProyectoFinal.Views.MaestroDetalle
 
             var page = (Page)Activator.CreateInstance(item.TargetType);
             page.Title = item.Title;
-
+            
             Detail = new NavigationPage(page);
             IsPresented = false;
 

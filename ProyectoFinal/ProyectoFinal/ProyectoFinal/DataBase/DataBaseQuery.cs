@@ -88,12 +88,12 @@ namespace ProyectoFinal.DataBase
         {
             if (confirmCode.Equals("75846"))
             {
-                return _database.QueryAsync<UserModel>("UPDATE UserModel SET Password ='" + newPassword + "' WHERE Email ='" 
-                                                        + email +"'");
+                return _database.QueryAsync<UserModel>("UPDATE UserModel SET Password ='" + newPassword + "' WHERE Email ='"
+                                                        + email + "'");
             }
             else
             {
-                return _database.QueryAsync<UserModel>("SELECT 1 FROM DUAL");
+                return _database.QueryAsync<UserModel>("");
             }
         }
 
