@@ -11,13 +11,16 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoFinal")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RestaurantApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Proyecto realizado para la clase de programación movil de la UTP, realizado por J" +
+    "uan Sebastián Rivera Páez")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("ProyectoFinal")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ProyectoFinal")]
+[assembly: System.Reflection.AssemblyProductAttribute("RestaurantApp")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RestaurantApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/JuanRivera2001/ProyectoFinal")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
 

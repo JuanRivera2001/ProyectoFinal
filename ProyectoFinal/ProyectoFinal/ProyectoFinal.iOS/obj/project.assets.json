@@ -465,7 +465,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "ProyectoFinal/1.0.0": {
+      "RestaurantApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -481,10 +481,10 @@
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         }
       }
     },
@@ -930,7 +930,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "ProyectoFinal/1.0.0": {
+      "RestaurantApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -946,10 +946,10 @@
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         }
       }
     },
@@ -1395,7 +1395,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "ProyectoFinal/1.0.0": {
+      "RestaurantApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1411,10 +1411,10 @@
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         }
       }
     },
@@ -1860,7 +1860,7 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "ProyectoFinal/1.0.0": {
+      "RestaurantApp/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -1876,10 +1876,10 @@
           "sqlite-net-pcl": "1.8.116"
         },
         "compile": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         },
         "runtime": {
-          "bin/placeholder/ProyectoFinal.dll": {}
+          "bin/placeholder/RestaurantApp.dll": {}
         }
       }
     }
@@ -3270,7 +3270,7 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "ProyectoFinal/1.0.0": {
+    "RestaurantApp/1.0.0": {
       "type": "project",
       "path": "../ProyectoFinal/ProyectoFinal.csproj",
       "msbuildProject": "../ProyectoFinal/ProyectoFinal.csproj"
@@ -3278,7 +3278,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "ProyectoFinal >= 1.0.0",
+      "RestaurantApp >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -3353,7 +3353,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.7.0 a 1.6.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.iOS -> ProyectoFinal -> Xamarin.Essentials (>= 1.7.0) \r\n ProyectoFinal.iOS -> Xamarin.Essentials (>= 1.6.1)",
+      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.7.0 a 1.6.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.iOS -> RestaurantApp -> Xamarin.Essentials (>= 1.7.0) \r\n ProyectoFinal.iOS -> Xamarin.Essentials (>= 1.6.1)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
@@ -3366,7 +3366,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2244 a 5.0.0.2012. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.iOS -> ProyectoFinal -> Xamarin.Forms (>= 5.0.0.2244) \r\n ProyectoFinal.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2244 a 5.0.0.2012. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.iOS -> RestaurantApp -> Xamarin.Forms (>= 5.0.0.2244) \r\n ProyectoFinal.iOS -> Xamarin.Forms (>= 5.0.0.2012)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

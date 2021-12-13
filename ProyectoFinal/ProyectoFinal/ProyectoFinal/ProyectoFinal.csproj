@@ -3,6 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <AssemblyName>RestaurantApp</AssemblyName>
+    <RootNamespace></RootNamespace>
+    <Description>Proyecto realizado para la clase de programación movil de la UTP, realizado por Juan Sebastián Rivera Páez</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>LogoAperturaOriginal.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/JuanRivera2001/ProyectoFinal</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -14,6 +21,10 @@
     <None Remove="Fonts\icons.ttf" />
     <None Remove="Fonts\Rubik-VariableFont_wght.ttf" />
     <None Remove="Fonts\Rubik.ttf" />
+    <None Include="C:\Users\juans\Dropbox\Trabajos UTP\6to Semestre\Desarrollo movil\Descargas proyecto\Resources final project\Images\LogoAperturaOriginal.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +43,15 @@
     <PackageReference Include="Xam.Plugins.Notifier" Version="3.0.1" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2244" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v11.0\Mono.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common">
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\Xamarin.iOS\v1.0\Facades\System.Drawing.Common.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

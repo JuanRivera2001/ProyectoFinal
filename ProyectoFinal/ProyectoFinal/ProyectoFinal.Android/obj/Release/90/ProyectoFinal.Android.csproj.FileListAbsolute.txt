@@ -1,0 +1,3 @@
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Release\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Release\90\build.props
+D:\DesarrolloMovil\ProyectoFinal\ProyectoFinal\ProyectoFinal.Android\obj\Release\90\adb.props

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pzBolYgzALC3YourBwkv6nKgB30jWIqLaaWZHuBgcKehkiQobG9MV0OOl4I/Ape+nYY5jaLvLXu3DIwlHQJ6wA==",
+  "dgSpecHash": "asxfcU8IhiF+zbXjLnXR2uDdDE0Xw46Amy8LyaFylxUITwYhoVyJkMFJ/jzr493WdlhcoIwTjXOK8wdmEItsXQ==",
   "success": true,
   "projectFilePath": "D:\\DesarrolloMovil\\ProyectoFinal\\ProyectoFinal\\ProyectoFinal.Android\\ProyectoFinal.Android.csproj",
   "expectedPackageFiles": [
@@ -92,7 +92,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.7.0 a 1.6.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.Android -> ProyectoFinal -> Xamarin.Essentials (>= 1.7.0) \r\n ProyectoFinal.Android -> Xamarin.Essentials (>= 1.6.1)",
+      "message": "Degradación del paquete detectada: Xamarin.Essentials de 1.7.0 a 1.6.1. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.Android -> RestaurantApp -> Xamarin.Essentials (>= 1.7.0) \r\n ProyectoFinal.Android -> Xamarin.Essentials (>= 1.6.1)",
       "libraryId": "Xamarin.Essentials",
       "targetGraphs": [
         "MonoAndroid,Version=v11.0"
@@ -102,7 +102,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2244 a 5.0.0.2012. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.Android -> ProyectoFinal -> Xamarin.Forms (>= 5.0.0.2244) \r\n ProyectoFinal.Android -> Xamarin.Forms (>= 5.0.0.2012)",
+      "message": "Degradación del paquete detectada: Xamarin.Forms de 5.0.0.2244 a 5.0.0.2012. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n ProyectoFinal.Android -> RestaurantApp -> Xamarin.Forms (>= 5.0.0.2244) \r\n ProyectoFinal.Android -> Xamarin.Forms (>= 5.0.0.2012)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v11.0"
